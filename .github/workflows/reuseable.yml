@@ -10,7 +10,7 @@ on:
     outputs:
       result:
         description: 'Result of the deployment'
-        value: ${{ steps.deploy.outputs.outcome }}
+        value: ${{ jobs.deploy.outputs.outcome }}
     #secrets:
       #some-secrets:
         #required: false
