@@ -7,9 +7,9 @@ on:
         required: true
         default: 'dist'
         type: string
-    secrets:
-      some-secrets:
-        required: false
+    #secrets:
+      #some-secrets:
+        #required: false
 
 jobs:
   deploy:
